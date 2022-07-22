@@ -1,0 +1,20 @@
+.weather{
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+
+.card{
+    float: left;
+    text-align: center;
+    width: 120px;
+    margin: 5px;
+}
+
+span{
+    margin: 7px ;
+}
+
+.today{
+    border: 2px solid red;
+}

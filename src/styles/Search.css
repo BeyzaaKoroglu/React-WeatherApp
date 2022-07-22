@@ -1,0 +1,12 @@
+.search{
+    text-align: center;
+}
+
+select{
+    margin: 5%;
+    width: 70%;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
