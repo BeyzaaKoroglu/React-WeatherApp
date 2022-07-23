@@ -29,10 +29,12 @@ function Weather() {
     <div className="weather">
       {dailyWeather.map((day, index) => (
         <div className={`card ${index === 0 ? "today" : ""}`} key={index}>
-          <div>{index===0 ? "Today" : getDay(day.dt)}</div>
+          <div>{index === 0 ? "Today" : getDay(day.dt)}</div>
           <img src={`http://openweathermap.org/img/wn/${day.icon}@2x.png`} />
-          <span>{Math.round(day.dayTemp)}⁰</span>
-          <span className="nightTemp">{Math.round(day.nightTemp)}⁰</span>
+          <div>
+            <span>{Math.round(day.dayTemp)}⁰</span>
+            <span className="nightTemp">{Math.round(day.nightTemp)}⁰</span>
+          </div>
         </div>
       ))}
     </div>
