@@ -1,14 +1,14 @@
 import React from "react";
 import Search from "./Search";
 import Weather from "./Weather";
-import "../App.css"
+import "../styles/Container.css"
 import Header from "./Header";
 
 function Container() {
   return (
-    <div className="Container">
+    <div className="container">
       <Search />
-      <Header/>
+      <Header />
       <Weather />
     </div>
   );

@@ -1,0 +1,8 @@
+.container {
+    text-align: center;
+    min-height: 100vh;
+    background-image: url("../images/sky.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flow-root;
+}

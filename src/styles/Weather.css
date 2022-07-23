@@ -1,20 +1,41 @@
 .weather{
+    text-align: justify;
     width: 70%;
+    margin: 20px auto;
     position: relative;
-    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    display: flow-root;
 }
 
 .card{
+    position: relative;
+    margin: 15px 5.2px;
+    padding: 5px 0px;
     float: left;
     text-align: center;
     width: 120px;
-    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    border: 2px solid rgba(128, 0, 128, 0.4);
+    font-weight: bold;
+    
+}
+
+@media (max-width: 1319px) {
+    .card {
+        width: 175px;
+    }
 }
 
 span{
     margin: 7px ;
 }
 
+.nightTemp{
+    color:rgb(75, 75, 75);
+}
+
 .today{
-    border: 2px solid red;
+    border: 2px solid rgb(128, 0, 128);
 }

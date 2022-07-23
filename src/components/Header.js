@@ -4,9 +4,9 @@ import cities from "../data/cities.json";
 import "../styles/Header.css"
 
 function Header() {
-    const {city,weather} = useContext(WeatherContext)
+    const {city} = useContext(WeatherContext)
   return (
-    <div id='header'>{cities[city-1].name.toUpperCase()}</div>
+    <div id='header'>{cities[city-1].name.toLocaleUpperCase('tr-TR')}</div>
   )
 }
 
