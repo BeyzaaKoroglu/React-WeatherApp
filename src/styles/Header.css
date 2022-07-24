@@ -4,3 +4,21 @@
   margin: 70px auto 0px;
   position: relative;
 }
+
+@media (max-width: 1319px) {
+  #header {
+    margin: 60px auto 0px;
+  }
+}
+
+@media (max-width: 879px) {
+  #header {
+    margin: 40px auto 0px;
+  }
+}
+
+@media (max-width: 519px) {
+  #header {
+    margin: 20px auto 0px;
+  }
+}

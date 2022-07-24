@@ -7,7 +7,6 @@ function Search() {
   const { city, setCity } = useContext(WeatherContext);
   const onChangeCity = (e) => {
     setCity(e.target.value);
-    localStorage.setItem("city", e.target.value);
   };
   return (
     <div className="search">

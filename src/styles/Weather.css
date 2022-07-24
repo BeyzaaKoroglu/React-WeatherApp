@@ -23,7 +23,19 @@
 
 @media (max-width: 1319px) {
   .card {
-    width: 175px;
+    width: 22%;
+  }
+}
+
+@media (max-width: 879px) {
+  .card {
+    width: 30%;
+  }
+}
+
+@media (max-width: 519px) {
+  .card {
+    width: 43%;
   }
 }
 
